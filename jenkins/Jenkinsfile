@@ -23,7 +23,7 @@ pipeline {
         }
         stage("COMPLETE!") {
             steps {
-                sh "echo COMPLETED"
+                sh "echo COMPLETED in pipeline branch!"
             }
         }
     }
